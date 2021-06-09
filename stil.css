@@ -1,0 +1,113 @@
+body{
+    padding:0;
+    margin: 0;
+}
+/*меню начинается*/
+.menu{
+    background-color: purple;
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    border-radius: 20px;
+
+}
+.menu a{
+    display:block;
+    text-decoration: none;
+    color: seashell;
+    margin-left: 50px;
+}
+.menu h4{
+    color: seashell;
+    margin-left: 35px;
+}
+/*меню кончилось*/
+.main{
+    padding: 50px 0 100px 300px;
+}
+img{
+    width: 40%;
+    filter:grayscale(40%);
+}
+hr{
+    border-color: purple;
+    border-width: 5px;
+    border-radius: 5px;
+}
+h3{
+    color: purple;
+}
+.kar{
+    font-weight:bold;
+}
+.rak{
+    color: rgb(87, 86, 86);
+}
+.kartochka div{
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    padding: 15px;
+}
+.kartochka{
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+}
+.kartochka img{
+    width: 100%;
+    border-radius: 15px;
+}
+.tarifs{
+    background-color: rgb(202, 202, 202);
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.tarifs p{
+    border-bottom: 1px gray solid;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.basic{
+    color: ghostwhite;
+    background-color:purple;
+    margin: 0;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.pro{
+    color: aliceblue;
+    background-color:coral;
+    margin: 0;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.basicbtn{
+    color: purple;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: whitesmoke;
+}
+.probtn{
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: coral;
+    background-color: coral;
+}
+input{
+    width: 80%;
+    border: 1px darkgrey solid;
+    padding: 7px;
+}
+.theend{
+    margin: 10px 0 0 0;
+    border: none;
+    color: white;
+    background-color: rgb(90, 4, 90);
+    width: 80%;
+    padding: 7px 0 7px 0;
+    border-radius: 7px;
+}
